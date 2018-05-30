@@ -1018,6 +1018,7 @@
 				TargetAttributes = {
 					8F900F9620AD691C005E1759 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -1321,6 +1322,7 @@
 			baseConfigurationReference = 8F426F56D5CBD543567B9704 /* Pods-SearchFashion.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L2B9W7978F;
@@ -1415,6 +1417,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.longlive.show;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1424,6 +1428,7 @@
 			baseConfigurationReference = 08A6F7C839320B0BCF8ACE06 /* Pods-SearchFashion.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L2B9W7978F;
@@ -1518,6 +1523,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.longlive.show;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
